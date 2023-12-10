@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 const Register = () => {
     const [username, setUsername] = useState("");
@@ -7,7 +8,7 @@ const Register = () => {
 
 	return (
 		<div className="bg-blue-50 w-screen h-screen flex items-center">
-			<form className="w-1/2 m-auto">
+			<form className="w-64 m-auto">
 				<h1>Register</h1>
 				<input
                     value={username}
